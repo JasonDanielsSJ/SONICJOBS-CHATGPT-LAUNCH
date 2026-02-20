@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SonicJobs × ChatGPT — AI-Native Talent Acquisition</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker">
+  <span class="ticker-track">
+    &nbsp;&nbsp;EARLY ACCESS OPEN · SONICJOBS INSIDE CHATGPT &nbsp;·&nbsp; VERIFIED APPLICANTS · DIRECT ATS DELIVERY &nbsp;·&nbsp; UP TO 5× HIGHER COMPLETION RATES &nbsp;·&nbsp; NO REDIRECTS · NO BOTS · BETTER SIGNAL &nbsp;·&nbsp; PHASE 1 NOW ONBOARDING · FOLLOW-UP WITHIN 24 HOURS &nbsp;·&nbsp;
+    &nbsp;&nbsp;EARLY ACCESS OPEN · SONICJOBS INSIDE CHATGPT &nbsp;·&nbsp; VERIFIED APPLICANTS · DIRECT ATS DELIVERY &nbsp;·&nbsp; UP TO 5× HIGHER COMPLETION RATES &nbsp;·&nbsp; NO REDIRECTS · NO BOTS · BETTER SIGNAL &nbsp;·&nbsp; PHASE 1 NOW ONBOARDING · FOLLOW-UP WITHIN 24 HOURS &nbsp;·&nbsp;
+  </span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <svg width="112" height="27" viewBox="0 0 134 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.5045 30.3584C8.34107 29.3906 6.40069 27.9866 4.8048 26.2344C3.10363 24.4632 1.82652 22.329 1.06964 19.9927C0.456097 18.2075 0.327272 16.2915 0.696322 14.4403C1.00517 12.9125 1.80906 11.5292 2.98353 10.5044C4.158 9.47964 5.63754 8.87063 7.19309 8.77166C9.30203 8.59903 11.4195 8.98007 13.3359 9.87708C14.755 10.507 16.0792 11.332 17.2699 12.3284C17.2945 12.3504 17.3167 12.3752 17.3358 12.4021L16.4292 13.4329C15.956 13.1138 15.508 12.7909 15.0396 12.4991C13.5929 11.5527 11.9312 10.9858 10.2078 10.8506C9.30695 10.7353 8.39162 10.8332 7.53552 11.1364C6.67942 11.4395 5.90649 11.9395 5.27897 12.596C4.40994 13.5623 3.90726 14.8027 3.85841 16.1014C3.77203 17.6674 4.08851 19.2295 4.77765 20.6385C5.98026 23.2442 7.98045 25.3999 10.489 26.7939C11.7391 27.5196 13.1256 27.9791 14.5616 28.1437C16.0365 28.3624 17.5413 28.0533 18.8107 27.271C19.5179 26.8099 20.1048 26.1865 20.5225 25.4529C20.9403 24.7192 21.1769 23.8964 21.2125 23.0529C21.3242 21.4619 21.0208 19.8691 20.3321 18.4305C19.8763 17.4221 19.2919 16.4769 18.5935 15.6185L19.5467 14.5451C19.792 14.8524 20.0247 15.1269 20.24 15.4178C21.3562 16.8727 22.214 18.5088 22.7757 20.2545C23.3715 22.0064 23.5051 23.8824 23.1635 25.7011C22.874 27.2271 22.0922 28.6162 20.9379 29.6554C19.7836 30.6947 18.3204 31.3269 16.7724 31.4551C16.3917 31.4951 16.0091 31.5151 15.6263 31.5152C13.8566 31.4943 12.1113 31.1001 10.5045 30.3584ZM73.8077 22.5664C72.7987 20.8985 72.4929 18.8984 72.9574 17.0052C73.4219 15.1121 74.6188 13.4807 76.2852 12.4692C77.5873 11.7631 79.0642 11.4439 80.5417 11.5494C82.0192 11.6549 83.4358 12.1806 84.6244 13.0646C84.7585 13.1571 84.8724 13.2758 84.9592 13.4137C85.0459 13.5515 85.1038 13.7056 85.1292 13.8665C85.1546 14.0274 85.147 14.1917 85.1069 14.3496C85.0668 14.5075 84.995 14.6556 84.8959 14.7848C84.7931 14.9135 84.6653 15.0199 84.5202 15.0978C84.3751 15.1757 84.2157 15.2234 84.0517 15.238C83.8876 15.2526 83.7224 15.2338 83.5658 15.1827C83.4092 15.1317 83.2647 15.0494 83.1408 14.9409C82.1804 14.1269 80.9485 13.7045 79.6907 13.7579C78.7769 13.7981 77.8968 14.115 77.1672 14.6668C76.4376 15.2185 75.893 15.9789 75.6055 16.8473C75.2494 17.8128 75.1813 18.8609 75.4094 19.8644C75.6375 20.8679 76.1519 21.7837 76.8903 22.5005C77.3689 22.9351 77.9359 23.2611 78.5523 23.4559C79.1688 23.6508 79.8201 23.7099 80.4616 23.6292C81.5552 23.5113 82.5835 23.0508 83.3997 22.3133C83.5282 22.2029 83.6804 22.1234 83.8445 22.0809C84.0085 22.0384 84.1802 22.0341 84.3462 22.0683C84.5122 22.1025 84.6681 22.1742 84.8021 22.278C84.936 22.3819 85.0444 22.515 85.1189 22.6672C85.1509 22.7254 85.1819 22.7875 85.2236 22.8699C85.274 22.8078 85.3138 22.7574 85.3526 22.7099C85.4505 22.5798 85.5753 22.4724 85.7186 22.3949C85.8618 22.3175 86.02 22.2719 86.1825 22.2612C86.345 22.2505 86.5079 22.275 86.66 22.3331C86.8121 22.3911 86.9499 22.4813 87.064 22.5974C87.461 23.0362 87.9735 23.3544 88.5428 23.5157C88.9493 23.6528 89.3862 23.673 89.8037 23.5739C90.2211 23.4748 90.6024 23.2604 90.9039 22.9552C91.2899 22.5035 91.506 21.931 91.5148 21.3369C91.5449 21.0023 91.5449 20.6717 91.5449 20.3362C91.5449 17.9042 91.5449 15.4713 91.5449 13.0375C91.5278 12.85 91.5524 12.661 91.6169 12.4842C91.6815 12.3073 91.7844 12.1469 91.9182 12.0145C92.0853 11.8465 92.2994 11.7331 92.5322 11.6893C92.7651 11.6455 93.0057 11.6733 93.2224 11.7691C93.4404 11.8505 93.6286 11.996 93.7624 12.1864C93.8962 12.3767 93.9692 12.6031 93.9719 12.8358C93.9797 12.9444 93.9768 13.0578 93.9768 13.1664C93.972 15.9096 94.0136 18.6489 93.9497 21.3873C93.9953 22.2483 93.7728 23.1023 93.313 23.8316C92.8532 24.561 92.1785 25.1298 91.382 25.4599C90.3287 25.8873 89.1681 25.9745 88.0628 25.7091C87.199 25.5326 86.4009 25.1205 85.7569 24.5183C85.5214 24.2764 85.299 24.0219 85.0908 23.7562C84.621 24.2666 84.0674 24.6929 83.454 25.0167C82.6175 25.4627 81.7029 25.7429 80.7602 25.8419C79.4104 26.015 78.0392 25.7986 76.8083 25.2182C75.5774 24.6379 74.538 23.7178 73.8126 22.5664H73.8077ZM39.4088 20.053C39.1325 18.6157 39.3024 17.1282 39.8957 15.7901C40.489 14.4521 41.4772 13.3275 42.7279 12.5672C43.9784 11.8396 45.4101 11.4827 46.8558 11.5384C47.8283 11.5474 48.7881 11.7602 49.6733 12.1631C50.5585 12.5659 51.3494 13.1499 51.995 13.8772C53.0464 15.0367 53.6707 16.5203 53.7647 18.0827C53.944 19.9419 53.3847 21.797 52.2075 23.2473C51.0303 24.6975 49.3299 25.6264 47.4735 25.8332C47.1497 25.8752 46.8235 25.8963 46.497 25.8962C44.8123 25.9297 43.1713 25.3588 41.871 24.287C40.5708 23.2152 39.6973 21.7132 39.4088 20.053ZM43.2099 15.1155C42.596 15.7459 42.1588 16.5269 41.9423 17.3798C41.7258 18.2327 41.7376 19.1275 41.9764 19.9745C42.1263 20.6791 42.4372 21.3395 42.8847 21.9041C43.3322 22.4686 43.9043 22.9219 44.5562 23.2286C45.208 23.5353 45.922 23.687 46.6422 23.6719C47.3625 23.6567 48.0695 23.4752 48.7079 23.1414C49.5099 22.728 50.1775 22.0944 50.6323 21.315C51.0871 20.5356 51.3102 19.6428 51.2756 18.7411C51.2532 18.4337 51.2397 18.1263 51.1931 17.8228C51.1518 17.5446 51.0843 17.2709 50.9914 17.0054C50.6947 16.0529 50.0998 15.2211 49.2944 14.6324C48.4891 14.0437 47.5159 13.7293 46.5184 13.7356C45.9023 13.7305 45.2916 13.8501 44.723 14.0872C44.1544 14.3244 43.6397 14.6741 43.2099 15.1155ZM97.0264 23.8231C96.2654 23.0807 95.6857 22.1728 95.3326 21.17C94.9794 20.1672 94.8622 19.0964 94.9901 18.041C95.1016 16.5859 95.6652 15.2021 96.602 14.0831C97.5388 12.9641 98.8019 12.1659 100.215 11.8002C100.495 11.721 100.78 11.6611 101.068 11.6208C101.456 11.5742 101.844 11.5549 102.11 11.5316C103.192 11.4962 104.268 11.7063 105.258 12.1464C106.247 12.5864 107.123 13.2448 107.822 14.0721C108.631 15.0602 109.164 16.2449 109.367 17.5059C109.57 18.7669 109.435 20.0591 108.977 21.2512C108.518 22.4432 107.752 23.4925 106.756 24.2924C105.76 25.0923 104.571 25.6142 103.308 25.8051C102.901 25.8605 102.491 25.8887 102.081 25.8894C101.142 25.9041 100.21 25.7285 99.3407 25.3734C98.4713 25.0183 97.6828 24.4909 97.0225 23.8231H97.0264ZM100.129 14.2234C99.3485 14.5856 98.6862 15.1615 98.2191 15.8845C97.752 16.6074 97.4992 17.4479 97.4899 18.3086C97.4977 21.332 99.1897 23.3353 101.711 23.6195C102.47 23.7338 103.246 23.6463 103.961 23.3656C104.676 23.0849 105.305 22.621 105.783 22.0205C106.304 21.3989 106.666 20.6604 106.839 19.8682C107.012 19.076 106.99 18.2537 106.775 17.4718C106.565 16.4167 105.995 15.4674 105.163 14.786C104.33 14.1046 103.287 13.7333 102.211 13.7356C101.486 13.7351 100.771 13.901 100.121 14.2205L100.129 14.2234ZM30.992 25.3561C30.1614 25.0684 29.3799 24.6551 28.6745 24.1305C28.5425 24.0506 28.4288 23.9438 28.3409 23.8169C28.253 23.6901 28.1929 23.5461 28.1646 23.3944C28.1362 23.2427 28.1402 23.0867 28.1762 22.9367C28.2123 22.7867 28.2797 22.6459 28.3739 22.5237C28.4682 22.3993 28.5865 22.2949 28.7216 22.2168C28.8568 22.1386 29.0063 22.0883 29.1612 22.0687C29.3161 22.0491 29.4733 22.0606 29.6237 22.1026C29.7741 22.1446 29.9146 22.2163 30.0369 22.3133C30.8583 22.9841 31.8365 23.4352 32.88 23.6243C33.6437 23.784 34.436 23.7412 35.1781 23.5002C35.5807 23.3863 35.925 23.1236 36.1411 22.7652C36.3572 22.4069 36.4289 21.9798 36.3417 21.5705C36.3082 21.3677 36.2281 21.1754 36.1078 21.0087C35.9876 20.842 35.8303 20.7054 35.6484 20.6096C34.9985 20.2522 34.2977 19.9965 33.5704 19.8513C32.6131 19.6506 31.6772 19.3584 30.7758 18.9786C30.2961 18.7945 29.8648 18.5032 29.5149 18.1269C29.165 17.7506 28.9058 17.2993 28.757 16.8075C28.6006 16.2977 28.5498 15.7613 28.6076 15.2312C28.6654 14.701 28.8306 14.1882 29.0931 13.724C29.3556 13.2598 29.7099 12.854 30.1344 12.5312C30.5589 12.2084 31.0447 11.9755 31.5622 11.8467C32.1805 11.7003 32.8062 11.5873 33.4366 11.5083L33.4492 11.582C34.959 11.573 36.4376 12.0116 37.6983 12.8426C37.8302 12.9171 37.9457 13.0176 38.0378 13.138C38.1299 13.2584 38.1967 13.3961 38.2341 13.543C38.2715 13.6899 38.2788 13.8428 38.2555 13.9925C38.2323 14.1423 38.1789 14.2858 38.0987 14.4144C38.0169 14.5423 37.9105 14.6528 37.7857 14.7394C37.6609 14.8259 37.5201 14.8869 37.3716 14.9187C37.2231 14.9505 37.0698 14.9526 36.9204 14.9248C36.7711 14.897 36.6288 14.8399 36.5017 14.7567C35.8528 14.3294 35.1355 14.0162 34.381 13.8307C33.6419 13.64 32.8634 13.6669 32.1392 13.9082C31.7628 14.0213 31.4421 14.2704 31.2395 14.6071C31.037 14.9438 30.967 15.3438 31.0434 15.7293C31.0724 15.9337 31.1489 16.1286 31.2668 16.2982C31.3847 16.4677 31.5406 16.6073 31.7222 16.7057C32.3468 17.0549 33.0211 17.3067 33.7217 17.4524C34.7467 17.6682 35.7457 17.9933 36.7014 18.422C37.5276 18.7711 38.1851 19.4286 38.5341 20.2547C38.7379 20.7571 38.8355 21.2963 38.821 21.8382C38.8064 22.3802 38.6799 22.9133 38.4494 23.404C38.2189 23.8948 37.8894 24.3325 37.4817 24.6898C37.0739 25.0471 36.5967 25.3162 36.0799 25.4802C35.3575 25.733 34.5975 25.8612 33.8322 25.8594C32.8645 25.8468 31.9052 25.6768 30.992 25.3561ZM122.865 24.1266C122.738 24.0433 122.629 23.935 122.545 23.8083C122.461 23.6816 122.404 23.5391 122.376 23.3895C122.349 23.24 122.353 23.0864 122.387 22.9383C122.421 22.7901 122.484 22.6504 122.574 22.5276C122.668 22.4029 122.785 22.2981 122.92 22.2194C123.055 22.1408 123.204 22.0898 123.358 22.0694C123.513 22.0491 123.67 22.0599 123.82 22.1011C123.971 22.1423 124.112 22.2131 124.234 22.3094C124.991 22.9256 125.88 23.3596 126.831 23.5778C127.671 23.7917 128.553 23.7649 129.378 23.5002C129.774 23.3914 130.115 23.1381 130.334 22.7902C130.552 22.4422 130.632 22.0251 130.558 21.621C130.532 21.4082 130.455 21.2051 130.332 21.0289C130.21 20.8528 130.047 20.749 129.857 20.6096C129.2 20.249 128.491 19.992 127.756 19.8474C126.773 19.6422 125.813 19.3357 124.893 18.9331C124.408 18.7382 123.977 18.4304 123.635 18.0352C123.294 17.64 123.052 17.1689 122.929 16.6611C122.788 16.1392 122.756 15.5937 122.836 15.0589C122.915 14.5242 123.105 14.0116 123.392 13.5534C123.679 13.0953 124.057 12.7014 124.504 12.3965C124.95 12.0916 125.455 11.8823 125.986 11.7818C127.013 11.5308 128.081 11.5016 129.12 11.6963C130.159 11.8909 131.144 12.3048 132.01 12.9104C132.244 13.0735 132.407 13.3211 132.462 13.6012C132.518 13.8813 132.463 14.1721 132.309 14.4125C132.145 14.659 131.894 14.8347 131.607 14.9046C131.319 14.9746 131.016 14.9335 130.757 14.7897C130.236 14.4903 129.695 14.2251 129.14 13.9955C128.253 13.6333 127.265 13.603 126.357 13.9102C125.966 14.0249 125.636 14.2862 125.434 14.6394C125.231 14.9926 125.174 15.4102 125.273 15.8049C125.299 15.9926 125.371 16.171 125.482 16.3244C125.593 16.4778 125.74 16.6014 125.911 16.6844C126.504 16.9564 127.111 17.1953 127.731 17.4C128.684 17.7152 129.665 17.945 130.598 18.295C131.092 18.5042 131.55 18.7892 131.956 19.1396C132.283 19.4165 132.546 19.7615 132.727 20.1505C132.907 20.5396 133.001 20.9633 133.001 21.3921C133.086 22.4531 132.748 23.5046 132.061 24.3174C131.374 25.1301 130.393 25.6381 129.333 25.7304C128.916 25.8041 128.489 25.8274 128.258 25.8507C126.32 25.8833 124.425 25.2775 122.865 24.1266ZM69.5276 25.519C69.388 25.4271 69.271 25.3047 69.1853 25.1612C69.0997 25.0176 69.0476 24.8565 69.0331 24.69C69.0224 24.597 69.0182 24.5033 69.0205 24.4097C69.0172 20.6048 69.0172 16.7995 69.0205 12.9938C68.9857 12.6755 69.0787 12.3564 69.2791 12.1066C69.4795 11.8568 69.7709 11.6968 70.0892 11.6617C70.4075 11.6266 70.7267 11.7194 70.9767 11.9195C71.2266 12.1197 71.3869 12.4108 71.4223 12.7291C71.434 12.8494 71.4291 12.9706 71.4291 13.0869C71.4343 14.9661 71.4343 16.8428 71.4291 18.7168C71.4291 20.6465 71.434 22.5761 71.4291 24.5028C71.4431 24.7302 71.3893 24.9566 71.2745 25.1534C71.1597 25.3502 70.9891 25.5085 70.7843 25.6082C70.5886 25.716 70.366 25.7649 70.1433 25.749C69.9205 25.7332 69.706 25.6533 69.5276 25.519ZM64.9042 25.3755C64.5319 24.9879 64.1875 24.5744 63.8735 24.1382C61.7648 21.4109 59.659 18.6835 57.5561 15.9562C57.5125 15.898 57.4591 15.8437 57.3622 15.7341V24.4922C57.3736 24.6608 57.3485 24.8299 57.2886 24.988C57.2286 25.146 57.1352 25.2893 57.0148 25.4079C56.8944 25.5265 56.7497 25.6177 56.5907 25.6752C56.4318 25.7327 56.2623 25.7552 56.0938 25.7411C55.8157 25.7189 55.5541 25.6001 55.3544 25.4053C55.1546 25.2105 55.0293 24.9519 55 24.6745C54.9933 24.5659 54.9933 24.4524 54.9933 24.3438V13.1742C54.9859 12.97 55.0065 12.7658 55.0543 12.5672C55.1238 12.324 55.2684 12.1091 55.4675 11.9532C55.6666 11.7973 55.91 11.7084 56.1627 11.6993C56.4689 11.6655 56.7785 11.7156 57.0583 11.8444C57.3382 11.9732 57.5776 12.1758 57.751 12.4305C59.9909 15.3446 62.2367 18.2536 64.4882 21.1575L64.6453 21.3446L64.7103 21.3252V21.0411C64.7103 18.3448 64.7103 15.6472 64.7103 12.9483C64.6863 12.6603 64.7703 12.3738 64.946 12.1443C65.1216 11.9149 65.3763 11.7591 65.6606 11.7071C65.8218 11.6751 65.988 11.6769 66.1485 11.7126C66.309 11.7483 66.4603 11.8169 66.5928 11.9142C66.7253 12.0115 66.8361 12.1354 66.9182 12.2778C67.0003 12.4203 67.0518 12.5783 67.0695 12.7417C67.0811 12.8581 67.0811 12.9793 67.0811 13.0995V24.2623C67.0907 24.433 67.0799 24.6042 67.0491 24.7724C66.9899 25.0518 66.8355 25.302 66.6123 25.4803C66.3891 25.6585 66.111 25.7538 65.8254 25.7498C65.4813 25.7497 65.1509 25.6154 64.9042 25.3755ZM111.979 25.648C111.801 25.6677 111.621 25.6474 111.452 25.5887C111.284 25.53 111.13 25.4343 111.003 25.3086C110.876 25.183 110.779 25.0305 110.718 24.8624C110.658 24.6943 110.635 24.5148 110.653 24.337C110.649 20.5876 110.649 16.8408 110.653 13.0966C110.636 12.9168 110.658 12.7354 110.72 12.5655C110.781 12.3956 110.88 12.2416 111.008 12.1145C111.137 11.9875 111.292 11.8907 111.462 11.8311C111.633 11.7715 111.814 11.7507 111.994 11.7701C113.659 11.7701 115.325 11.7624 116.986 11.7701C117.851 11.7549 118.707 11.9373 119.491 12.3034C120.036 12.5368 120.505 12.9182 120.845 13.4043C121.185 13.8905 121.382 14.4621 121.413 15.0544C121.482 15.683 121.365 16.3179 121.076 16.8802C120.787 17.4426 120.339 17.9076 119.787 18.2174C119.69 18.2756 119.6 18.3338 119.506 18.3929C119.498 18.3929 119.498 18.4085 119.487 18.4395C119.816 18.5908 120.148 18.7236 120.456 18.8904C120.997 19.1538 121.45 19.5694 121.758 20.0861C122.066 20.6028 122.217 21.1982 122.192 21.7994C122.215 22.5879 121.97 23.3608 121.496 23.9914C121.022 24.6219 120.347 25.0727 119.584 25.2698C118.796 25.5241 117.973 25.6501 117.145 25.6432L111.979 25.648ZM114.597 23.5041C115.56 23.5041 116.52 23.5041 117.484 23.4924C118.008 23.493 118.521 23.352 118.971 23.0842C119.244 22.9215 119.465 22.6843 119.609 22.4005C119.752 22.1166 119.812 21.7978 119.781 21.4813C119.78 21.1805 119.693 20.8861 119.531 20.6325C119.369 20.3789 119.139 20.1766 118.866 20.0491C118.432 19.827 117.952 19.7085 117.465 19.703C116.057 19.6797 114.648 19.6758 113.239 19.6681C113.174 19.6681 113.108 19.6836 113.034 19.6913V23.4885C113.089 23.4885 113.123 23.5041 113.153 23.5041H113.638H114.597ZM113.045 17.6056C113.107 17.6142 113.169 17.6193 113.231 17.6211C114.254 17.6211 115.279 17.6327 116.305 17.6211C116.704 17.6196 117.101 17.5767 117.491 17.4931C117.932 17.4289 118.332 17.2002 118.611 16.8529C118.891 16.5057 119.028 16.0657 118.996 15.6213C118.964 15.1769 118.765 14.761 118.439 14.4573C118.113 14.1536 117.685 13.9844 117.239 13.9839C115.854 13.9141 114.461 13.9179 113.045 13.8947V17.6056ZM11.2899 23.2808C9.62892 22.2 8.38492 20.5863 7.76229 18.7049C7.46479 17.8294 7.42673 16.8865 7.65272 15.9899C7.8185 15.3451 8.17833 14.7668 8.68353 14.3332C9.18872 13.8997 9.8149 13.6317 10.4774 13.5657C11.9937 13.4185 13.5134 13.8099 14.7701 14.6711C14.8893 14.7448 15.0076 14.8311 15.1463 14.9281C14.8001 15.3208 14.4675 15.698 14.1233 16.0917C13.4693 15.6979 12.7163 15.4994 11.9532 15.5196C11.6539 15.5212 11.3586 15.5888 11.0883 15.7176C10.8181 15.8464 10.5796 16.0332 10.3898 16.2647C10.2 16.4961 10.0635 16.7666 9.99018 17.0568C9.91682 17.3471 9.90835 17.6499 9.96537 17.9437C10.1303 18.9896 10.6228 19.9562 11.3721 20.7043C12.1214 21.4523 13.0888 21.9433 14.1349 22.1065C14.4502 22.1655 14.7748 22.1498 15.0829 22.0606C15.3909 21.9714 15.6738 21.8112 15.9087 21.593C16.1437 21.3747 16.3242 21.1044 16.4358 20.8037C16.5474 20.5031 16.587 20.1805 16.5514 19.8617C16.4861 19.4026 16.3872 18.9489 16.2556 18.5042C16.2278 18.4155 16.2347 18.3194 16.275 18.2356C16.5901 17.8623 16.9179 17.5045 17.2786 17.0992C17.458 17.4104 17.6374 17.6945 17.7896 17.9942C18.3096 18.948 18.5726 20.0206 18.5527 21.1068C18.5627 21.5562 18.4821 22.0029 18.3159 22.4206C18.1497 22.8382 17.9012 23.2181 17.5853 23.5378C17.2693 23.8575 16.8923 24.1104 16.4766 24.2814C16.061 24.4525 15.6152 24.5383 15.1657 24.5336C15.0949 24.5336 15.0251 24.5336 14.9543 24.5336C13.633 24.5033 12.3533 24.0657 11.2899 23.2808ZM13.5473 19.2227C13.5033 19.1855 13.4573 19.1505 13.4096 19.118L28.2543 2.44555C28.3673 2.57368 28.4448 2.72911 28.4792 2.89645C28.4892 2.9626 28.52 3.02387 28.567 3.07144C28.6141 3.11901 28.675 3.15043 28.741 3.16117C29.0804 3.25038 29.4101 3.3551 29.7447 3.45207C30.3265 3.6237 30.4641 4.0552 30.0714 4.50609C28.9825 5.74727 27.8848 6.98457 26.792 8.22962C25.386 9.82892 23.98 11.4279 22.574 13.0266C22.477 13.1352 22.38 13.2409 22.2753 13.3456C22.2082 13.4177 22.1222 13.4697 22.0272 13.4958C21.9321 13.5218 21.8317 13.5208 21.7371 13.493C21.2164 13.3689 20.6918 13.2515 20.174 13.1274C20.0919 13.0967 20.002 13.0933 19.9178 13.1178C19.8336 13.1423 19.7596 13.1932 19.7067 13.2632C18.5014 14.6478 17.2825 16.018 16.0772 17.3949C15.5604 17.9825 15.0416 18.574 14.516 19.1578C14.4597 19.2376 14.3867 19.3043 14.3022 19.3533C14.2177 19.4024 14.1236 19.4326 14.0263 19.4419C13.846 19.4269 13.6765 19.3494 13.5473 19.2227ZM13.271 18.9929C13.1696 18.8502 13.0758 18.7023 12.9898 18.5498C13.0672 18.3846 13.1597 18.2268 13.2661 18.0785C15.0018 16.1023 16.7398 14.1307 18.48 12.1636C18.5337 12.1164 18.5704 12.0528 18.5844 11.9827C18.5984 11.9127 18.589 11.8399 18.5576 11.7757C18.3753 11.2967 18.2153 10.806 18.0214 10.3396C17.9543 10.1966 17.9341 10.0361 17.9637 9.88091C17.9933 9.72575 18.0712 9.58392 18.1862 9.47564C20.1029 7.31264 22.017 5.14414 23.9286 2.97014C24.5618 2.24677 25.2008 1.51564 25.8388 0.799056C26.2626 0.32004 26.6941 0.394705 26.9559 0.982323C27.0994 1.3091 27.2352 1.64364 27.3951 1.96266C27.4218 2.01038 27.4579 2.05218 27.5013 2.08552C27.5446 2.11886 27.5943 2.14304 27.6473 2.15659C27.8771 2.18165 28.0915 2.28425 28.2552 2.44749L13.4096 19.118C13.3569 19.0838 13.3108 19.0416 13.271 18.9929Z" fill="#201150"/>
+    </svg>
+  </div>
+  <button class="btn btn-dark btn-sm" data-cta="request">Request Early Access</button>
+</nav>
+
+<!-- HERO -->
+<div class="hero-wrap">
+  <div class="hero-left">
+    <div class="hero-eyebrow"><div class="pulse-dot"></div> Early Access Open · Phase 1 Now Onboarding · Direct ATS Integration</div>
+    <h1>Your jobs, <span class="gold">inside ChatGPT.</span><br>Verified applicants. No redirects.</h1>
+    <p class="hero-body">200 million people use ChatGPT every day. A significant share are researching roles, comparing employers, and deciding where to apply — right now. SonicJobs puts your open positions inside those conversations, routes intent-qualified candidates directly to your ATS, and verifies every applicant before they arrive. No redirects. No bots. Just better pipeline.</p>
+    <div class="hero-cta-row">
+      <button class="btn btn-dark btn-lg" data-cta="request">Request Early Access</button>
+      <a class="link-cta" onclick="scrollTo('.fit-section')">See if it's the right fit →</a>
+    </div>
+    <div class="hero-proof">
+      <div class="proof-avatars">
+        <div class="proof-avatar">👤</div>
+        <div class="proof-avatar">👤</div>
+        <div class="proof-avatar">👤</div>
+        <div class="proof-avatar">👤</div>
+      </div>
+      <span class="proof-text"><strong>Early access pricing available.</strong> Onboarding now.</span>
+    </div>
+  </div>
+
+  <div class="hero-slot-card">
+    <div class="hsc-badge">Early Access · Phase 1 Active</div>
+    <div class="hsc-num" style="font-size:36px;line-height:1.15;"><span>5× Higher</span><br>Completion Rate</div>
+    <div class="hsc-sub">vs. standard job board redirects</div>
+
+    <div style="background:rgba(201,169,110,0.1);border:1px solid rgba(201,169,110,0.25);border-radius:12px;padding:16px 18px;margin-bottom:18px;">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;">What you get in Phase 1</div>
+      <div style="font-size:14px;color:rgba(255,255,255,0.7);line-height:1.6;">Your jobs surface natively inside ChatGPT. Intent-qualified candidates are routed directly to your apply flow. Priority access to Phase 2 verified apply is included.</div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-meta"><span>Currently Onboarding</span><span>Capacity managed</span></div>
+      <div class="progress-track"><div class="progress-fill" id="slotFill"></div></div>
+    </div>
+
+    <div class="hsc-grid">
+      <div class="hsc-cell"><div class="hsc-cell-val">Phase 1</div><div class="hsc-cell-label">Active</div></div>
+      <div class="hsc-cell"><div class="hsc-cell-val">24h</div><div class="hsc-cell-label">Follow-up</div></div>
+      <div class="hsc-cell"><div class="hsc-cell-val">Phase 2</div><div class="hsc-cell-label">Roadmap</div></div>
+      <div class="hsc-cell"><div class="hsc-cell-val" style="font-size:18px;white-space:nowrap;">Managed</div><div class="hsc-cell-label">Onboarding</div></div>
+    </div>
+
+    <div class="hsc-divider"></div>
+    <div class="hsc-countdown-label">Deployment details provided upon request</div>
+    <div style="padding:16px 0 4px;font-size:13px;color:rgba(255,255,255,0.45);line-height:1.7;text-align:center;">
+      Organisations onboard through structured launch cycles. Access is managed to ensure integration quality and dedicated deployment support at each stage.
+    </div>
+
+    <button class="btn btn-gold" style="width:100%;justify-content:center;margin-top:20px;font-size:15px;padding:16px;" data-cta="request">Request Early Access →</button>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stat-strip">
+  <div class="stat-block light reveal">
+    <div class="stat-big">95%</div>
+    <div class="stat-copy">
+      <strong>of candidates abandon a redirect-based application before completing it</strong>
+      <p>The drop-off happens at the redirect — the moment a candidate is asked to leave one platform and start over in another. It is not a motivation problem. It is a structural one.</p>
+    </div>
+  </div>
+  <div class="stat-block dark reveal">
+    <div class="stat-big">5×</div>
+    <div class="stat-copy">
+      <strong>higher application completion when candidates apply inside ChatGPT</strong>
+      <p>Remove the redirect and you remove the exit point. Candidates who begin the process inside ChatGPT complete it at five times the rate of those pushed through a standard redirect flow.</p>
+    </div>
+  </div>
+</div>
+
+<!-- CHATGPT SCALE -->
+<div class="scale-band">
+  <div class="scale-band-inner">
+    <div class="scale-item">
+      <div class="scale-num">200M</div>
+      <div class="scale-label">Unique ChatGPT users per day</div>
+    </div>
+    <div class="scale-divider"></div>
+    <div class="scale-item">
+      <div class="scale-num">2.6B</div>
+      <div class="scale-label">Daily prompts processed</div>
+    </div>
+    <div class="scale-divider"></div>
+    <div class="scale-item">
+      <div class="scale-num">1-in-6</div>
+      <div class="scale-label">Prompts are about jobs, careers, or compensation</div>
+    </div>
+  </div>
+</div>
+
+<!-- WHO IT'S FOR / NOT FOR -->
+<div class="fit-section" id="fit-section-anchor">
+  <div class="fit-inner">
+    <div class="fit-header reveal">
+      <span class="section-kicker">Is This the Right Fit for Your Organization?</span>
+      <div class="fit-title">Built for teams where<br><span>pipeline quality is the problem.</span></div>
+      <p>SonicJobs is not for every team. We manage onboarding carefully to ensure each deployment delivers results. The criteria below will help you assess fit before reaching out.</p>
+    </div>
+
+    <div class="fit-grid">
+      <!-- NOT FOR -->
+      <div class="fit-card not-for reveal">
+        <h3>This is not the right fit if volume is your primary hiring metric.</h3>
+        <div class="fit-card-label">✕ &nbsp;Not a match if...</div>
+        <div class="fit-rows">
+          <div class="fit-row">
+            <div class="fit-icon">✕</div>
+            <div class="fit-row-content">
+              <h5>You measure success by total application volume</h5>
+              <p>SonicJobs improves submission quality, not raw count. If your team is optimizing for more applications rather than better ones, this will not align with how you measure results.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✕</div>
+            <div class="fit-row-content">
+              <h5>You believe a difficult apply process filters for quality</h5>
+              <p>The evidence does not support this. Friction eliminates qualified candidates at the same rate as unqualified ones — and often at a higher rate for passive candidates with options.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✕</div>
+            <div class="fit-row-content">
+              <h5>Your ATS and apply workflow cannot be configured</h5>
+              <p>Integration requires basic configurability within your ATS and apply flow. If your tech stack is locked down with no flexibility, we are not the right fit at this time.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✕</div>
+            <div class="fit-row-content">
+              <h5>Bot submissions and spam are not an operational concern</h5>
+              <p>If automated application noise is not affecting your team's efficiency or pipeline quality, there is no problem here to solve. This integration was built for teams that have decided there is.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- YES FOR -->
+      <div class="fit-card yes-for reveal">
+        <h3>This is a strong fit if you care about who actually reaches your recruiters.</h3>
+        <div class="fit-card-label">✓ &nbsp;Strong match if...</div>
+        <div class="fit-rows">
+          <div class="fit-row">
+            <div class="fit-icon">✓</div>
+            <div class="fit-row-content">
+              <h5>Automated submissions are degrading your pipeline</h5>
+              <p>Your inbound looks busy but the signal-to-noise ratio has deteriorated. Recruiters are spending more time screening out noise than advancing qualified candidates.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✓</div>
+            <div class="fit-row-content">
+              <h5>Candidate experience is a live organizational priority</h5>
+              <p>You understand that the apply experience reflects employer brand — and that the current state is not consistent with the standard you hold in the rest of the candidate journey.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✓</div>
+            <div class="fit-row-content">
+              <h5>You need verified applicants, not just more applicants</h5>
+              <p>You are not looking to increase volume. You want confirmed, intent-verified humans whose submissions reflect a genuine decision to pursue the role.</p>
+            </div>
+          </div>
+          <div class="fit-row">
+            <div class="fit-icon">✓</div>
+            <div class="fit-row-content">
+              <h5>You want to reach candidates where they are already searching</h5>
+              <p>ChatGPT has more than 500 million weekly active users. A meaningful share of your candidate market is using it for job research today. This integration puts your roles in front of them at that moment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fit-cta-row">
+      <button class="btn btn-gold btn-lg" data-cta="request">Request Early Access →</button>
+      <span class="fit-cta-note">Early access pricing available · Follow-up within 24 hours.</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM / SOLUTION -->
+<div class="section-wrap">
+  <div class="section-kicker">The Problem SonicJobs Solves</div>
+  <div class="section-headline">Most inbound hiring funnels<br>are broken by design.</div>
+  <p class="section-sub">High abandonment. Bot submissions. Incomplete screener data. No way to verify who is actually applying. These are not random occurrences — they are predictable outcomes of a redirect-based apply architecture that has not changed in 20 years.</p>
+  <div class="ps-grid">
+    <div class="ps-card before reveal">
+      <div class="ps-tag">The Problem</div>
+      <h3>Redirect-based apply flows create compounding quality and efficiency problems.</h3>
+      <div class="ps-rows">
+        <div class="ps-row">
+          <div class="ps-mark">✕</div>
+          <div class="ps-row-text"><strong>95% of candidates abandon before completing</strong><span>The redirect is the exit point. Most candidates who are asked to leave one platform and start over in another never return. The drop-off is consistent across industries and role types.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✕</div>
+          <div class="ps-row-text"><strong>Multiple platforms, multiple friction points</strong><span>A typical apply flow involves credential prompts, page redirects, and repeated form contexts. Each step is a compounding source of abandonment for candidates who have other options.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✕</div>
+          <div class="ps-row-text"><strong>Rising bot volume, declining pipeline quality</strong><span>AI-generated applications have increased inbound volume without a corresponding increase in qualified candidates advancing past the first screen. Your ATS is full. Your pipeline is not.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✕</div>
+          <div class="ps-row-text"><strong>No way to verify who is actually applying</strong><span>Existing apply flows have no structural mechanism for confirming that a submission came from a real person who genuinely wants the role. You are screening on faith.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✕</div>
+          <div class="ps-row-text"><strong>More screening work, fewer qualified hires</strong><span>Recruiters are spending more time per qualified hire than at any point in recent years — a direct result of signal degradation in the inbound funnel.</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="ps-card after reveal">
+      <div class="ps-tag">SonicJobs × ChatGPT</div>
+      <h3>One verified session. Complete data. No redirect. Delivered to your ATS.</h3>
+      <div class="ps-rows">
+        <div class="ps-row">
+          <div class="ps-mark">✓</div>
+          <div class="ps-row-text"><strong>Candidates apply without leaving ChatGPT</strong><span>Discovery, role evaluation, and application all happen in a single session. No platform transitions. No exit point. No abandonment at the redirect.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✓</div>
+          <div class="ps-row-text"><strong>Up to 5× higher completion rate</strong><span>Eliminating the redirect eliminates the primary point of drop-off. Candidates who start the process inside ChatGPT complete it at measurably higher rates than those directed elsewhere.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✓</div>
+          <div class="ps-row-text"><strong>Two-factor verification on every submission</strong><span>Every application is confirmed through a structured identity verification step before it reaches your ATS. Bots and bulk submissions are excluded at the source.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✓</div>
+          <div class="ps-row-text"><strong>Every screener question answered before submission</strong><span>Candidates complete all configured screening criteria during the session. Your team receives fully populated profiles — no chasing incomplete data before the first call.</span></div>
+        </div>
+        <div class="ps-row">
+          <div class="ps-mark">✓</div>
+          <div class="ps-row-text"><strong>Candidate intent data available before first contact</strong><span>Recruiters can review how a candidate found the role, what they asked, and how they assessed fit — before initiating any outreach.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AEO / GEO -->
+<div class="aeo-section">
+  <div class="aeo-inner">
+    <div class="aeo-top">
+      <div class="aeo-text">
+        <div class="section-kicker">AI Search Is Now a Talent Acquisition Channel</div>
+        <div class="section-headline">Your candidates are searching<br>on <span class="gold">ChatGPT.</span> Are your jobs there?</div>
+        <p class="section-sub">SEO put your jobs in front of candidates searching on Google. AI search is now doing the same — but faster, more conversational, and with higher intent. Candidates are asking ChatGPT which companies are hiring, which roles match their skills, and what it's like to work somewhere. Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) ensure your organization and your open roles appear in those answers. Early integrations compound: platforms learn routing patterns, and organizations that establish presence now build a durable discovery advantage.</p>
+      </div>
+      <div class="aeo-evolution">
+        <div class="aeo-evo-row past">
+          <div class="aeo-evo-icon">🔍</div>
+          <div class="aeo-evo-content">
+            <h5>SEO — Search Engine Optimization</h5>
+            <p>Ranking on Google to drive candidate traffic through organic search and job board aggregators.</p>
+          </div>
+          <div class="aeo-evo-tag">Established</div>
+        </div>
+        <div class="aeo-arrow">↓</div>
+        <div class="aeo-evo-row present">
+          <div class="aeo-evo-icon">⚡</div>
+          <div class="aeo-evo-content">
+            <h5>AEO — Answer Engine Optimization</h5>
+            <p>Your roles appearing inside AI responses when candidates ask about jobs, employers, and career paths.</p>
+          </div>
+          <div class="aeo-evo-tag">Now</div>
+        </div>
+        <div class="aeo-arrow">↓</div>
+        <div class="aeo-evo-row future">
+          <div class="aeo-evo-icon">🤖</div>
+          <div class="aeo-evo-content">
+            <h5>GEO — Generative Engine Optimization</h5>
+            <p>Shaping how AI models represent your organization, culture, and opportunities in candidate conversations.</p>
+          </div>
+          <div class="aeo-evo-tag">Strategic Priority</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-kicker" style="margin-bottom:20px;">Full Attribution — ChatGPT to ATS</div>
+    <div class="section-headline" style="font-size:clamp(24px,2.8vw,38px);margin-bottom:14px;">See exactly where your<br>best applicants <span class="gold">are coming from.</span></div>
+    <p style="font-size:16px;color:var(--gray);line-height:1.7;max-width:640px;margin-bottom:36px;">SonicJobs provides complete source attribution — from the moment a candidate asks ChatGPT about a role to the moment a verified application lands in your ATS. Every stage is measured and available alongside your existing channel reporting.</p>
+
+    <div class="aeo-metrics">
+      <div class="aeo-metric">
+        <div class="aeo-metric-icon">💬</div>
+        <h4>ChatGPT-to-Career-Site Attribution</h4>
+        <p>Track how many candidates ChatGPT sent to your jobs page — segmented by role, location, and time period — without adding a new reporting tool.</p>
+      </div>
+      <div class="aeo-metric">
+        <div class="aeo-metric-icon">🎯</div>
+        <h4>Applicant Intent Scoring</h4>
+        <p>Candidates from ChatGPT have already engaged with role details and asked questions before applying. That engagement is scored and available to your team at the point of review.</p>
+      </div>
+      <div class="aeo-metric">
+        <div class="aeo-metric-icon">📊</div>
+        <h4>Cross-Channel Attribution</h4>
+        <p>Compare ChatGPT-sourced applicants against organic, LinkedIn, Indeed, and paid channels — in a single consolidated view. Know which sources are producing qualified pipeline.</p>
+      </div>
+      <div class="aeo-metric">
+        <div class="aeo-metric-icon">🔁</div>
+        <h4>End-to-End Funnel Analytics</h4>
+        <p>Every step from initial ChatGPT query to completed ATS submission is tracked. Identify where candidates drop off, and act on it.</p>
+      </div>
+    </div>
+
+    <div class="aeo-dashboard">
+      <div class="aeo-dash-bar">
+        <div class="aeo-dash-title">Career Site Traffic by Source — Rolling 30 Days</div>
+        <div class="aeo-dash-live">Live Tracking</div>
+      </div>
+      <div class="aeo-dash-body">
+        <div class="aeo-dash-row">
+          <div class="aeo-dash-source">🤖 ChatGPT</div>
+          <div class="aeo-dash-bar-wrap"><div class="aeo-dash-bar-fill chatgpt" style="width:72%"></div></div>
+          <div class="aeo-dash-stat">3,841</div>
+          <div class="aeo-dash-delta new">New</div>
+        </div>
+        <div class="aeo-dash-row">
+          <div class="aeo-dash-source">🔍 Organic Search</div>
+          <div class="aeo-dash-bar-wrap"><div class="aeo-dash-bar-fill organic" style="width:100%"></div></div>
+          <div class="aeo-dash-stat">5,312</div>
+          <div class="aeo-dash-delta down">—</div>
+        </div>
+        <div class="aeo-dash-row">
+          <div class="aeo-dash-source">💼 LinkedIn</div>
+          <div class="aeo-dash-bar-wrap"><div class="aeo-dash-bar-fill linkedin" style="width:48%"></div></div>
+          <div class="aeo-dash-stat">2,560</div>
+          <div class="aeo-dash-delta down">—</div>
+        </div>
+        <div class="aeo-dash-row">
+          <div class="aeo-dash-source">🏢 Indeed</div>
+          <div class="aeo-dash-bar-wrap"><div class="aeo-dash-bar-fill indeed" style="width:38%"></div></div>
+          <div class="aeo-dash-stat">2,014</div>
+          <div class="aeo-dash-delta down">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHAT YOU GET -->
+<div class="section-wrap" style="padding-top:0;">
+  <div class="section-kicker">What You Get</div>
+  <div class="section-headline">Better applicants.<br>Less noise. Starting at the top of the funnel.</div>
+  <p class="section-sub">No changes to your downstream workflow or ATS. SonicJobs integrates at the top of your existing funnel and delivers verified, complete applications from candidates who have already demonstrated genuine interest.</p>
+  <div class="get-grid">
+    <div class="get-card reveal">
+      <div class="get-icon">🎯</div>
+      <h4>Higher-Intent Applicants</h4>
+      <p>Every candidate has actively searched, reviewed the role, asked clarifying questions, and made a deliberate decision to apply. Their intent is tracked and visible to your recruiting team before first contact.</p>
+    </div>
+    <div class="get-card reveal">
+      <div class="get-icon">⚡</div>
+      <h4>Up to 5× Higher Completion Rate</h4>
+      <p>No redirect means no exit point. Candidates who start the apply process inside ChatGPT complete it — and arrive in your ATS without missing fields or abandoned screeners.</p>
+    </div>
+    <div class="get-card reveal">
+      <div class="get-icon">🛡️</div>
+      <h4>Verified Human Applicants</h4>
+      <p>The first integrated apply workflow with embedded two-factor identity verification. Every submission is confirmed. Bot submissions and bulk automated applications are blocked before they reach your team.</p>
+    </div>
+    <div class="get-card reveal">
+      <div class="get-icon">📋</div>
+      <h4>Complete Screening Data on Arrival</h4>
+      <p>Every ATS screener question is answered before submission. Your team receives fully populated profiles. No chasing down missing data before the first substantive conversation.</p>
+    </div>
+    <div class="get-card reveal">
+      <div class="get-icon">🔍</div>
+      <h4>Candidate Intelligence Before You Reach Out</h4>
+      <p>See how each candidate found your role, what questions they asked, and how they assessed fit — before a recruiter makes first contact. Better conversations start here.</p>
+    </div>
+  </div>
+</div>
+
+<!-- WHY SONICJOBS -->
+<div class="why-sj-section">
+  <div class="why-sj-inner">
+    <div class="section-kicker" style="color:var(--gold);">Why SonicJobs</div>
+    <div class="section-headline" style="color:var(--white);">The fastest path to<br>native <span class="gold">ChatGPT integration.</span></div>
+    <p style="font-size:17px;color:rgba(255,255,255,0.5);line-height:1.75;max-width:580px;margin-bottom:0;">Not all ChatGPT integrations are equal. SonicJobs holds a privileged position within the OpenAI ecosystem — which means faster deployment, deeper platform access, and earlier visibility into product direction than standard API channels allow.</p>
+    <div class="why-sj-grid">
+      <div class="why-sj-card gold-border">
+        <span class="why-sj-icon">🔗</span>
+        <h4>OpenAI Startup Program Member</h4>
+        <p>Shared investors. Direct access to OpenAI product and engineering teams. Early visibility into platform roadmap — not a wrapper built on public documentation.</p>
+      </div>
+      <div class="why-sj-card">
+        <span class="stat-inline">&lt;30</span>
+        <h4>Days to Live Integration</h4>
+        <p>Standard direct integrations can take six months or more. Send your job feed — SonicJobs handles configuration and goes live in under 30 days.</p>
+      </div>
+      <div class="why-sj-card">
+        <span class="why-sj-icon">⚡</span>
+        <h4>First Access to New Capabilities</h4>
+        <p>Your integration updates automatically as OpenAI releases new models and surfaces — before general availability, without additional engagement on your end.</p>
+      </div>
+      <div class="why-sj-card">
+        <span class="why-sj-icon">🛡️</span>
+        <h4>Clean Data Governance</h4>
+        <p>ChatGPT retains only chat messages and routing metadata. Resumes, screener answers, and personal data flow directly to your ATS. Your organization retains full ownership of all applicant data.</p>
+      </div>
+    </div>
+    <div class="llm-roadmap">
+      <div class="llm-roadmap-label">Multi-LLM Roadmap</div>
+      <div class="llm-pills">
+        <div class="llm-pill active">ChatGPT · Active</div>
+        <div class="llm-pill soon">Claude / Anthropic · Coming Soon</div>
+        <div class="llm-pill soon">Gemini / Google · Next</div>
+        <div class="llm-pill soon">Copilot / Microsoft · Next</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- QUOTE BAND -->
+<div class="quote-band">
+  <blockquote>"The question is no longer whether candidates are using AI to find jobs. They are. The question is whether your organization appears when they search — and whether the experience they find is worth completing."</blockquote>
+  <div class="quote-source">SonicJobs · Enterprise Talent Infrastructure</div>
+</div>
+
+<!-- VERIFY FLOW -->
+<div class="verify-section">
+  <div class="verify-inner">
+    <div class="verify-text">
+      <div class="section-kicker">How It Works</div>
+      <div class="section-headline">Four steps.<br>Your config. <span class="gold">Our infrastructure.</span></div>
+      <p class="section-sub" style="margin-bottom:0;">Define your roles, screening criteria, and ATS requirements. SonicJobs handles discovery inside ChatGPT, guides candidates through completion, verifies their identity, and delivers a fully populated, confirmed application to your existing workflow. No engineering work required on your end.</p>
+      <div class="trust-chips">
+        <div class="trust-chip"><span class="check">✓</span> Identity Verified</div>
+        <div class="trust-chip"><span class="check">✓</span> Two-Factor Confirmation</div>
+        <div class="trust-chip"><span class="check">✓</span> Screeners Completed</div>
+        <div class="trust-chip"><span class="check">✓</span> Direct ATS Delivery</div>
+        <div class="trust-chip"><span class="check">✓</span> No Engineering Required</div>
+      </div>
+    </div>
+    <div class="verify-card reveal">
+      <div class="verify-card-header">
+        <span>SonicJobs Verified Apply — How It Works</span>
+        <div class="live-pill">Active</div>
+      </div>
+      <div class="v-row">
+        <div class="v-num">01</div>
+        <div class="v-content"><h5>Your jobs surface inside ChatGPT</h5><p>When candidates ask ChatGPT about roles in your industry or region, your positions appear natively — no redirect, no job board intermediary</p></div>
+        <div class="v-check">✓</div>
+      </div>
+      <div class="v-row">
+        <div class="v-num">02</div>
+        <div class="v-content"><h5>Candidates complete screeners conversationally</h5><p>All configured ATS screening questions are answered within the ChatGPT session. No separate form. No context switching. No abandonment at a redirect</p></div>
+        <div class="v-check">✓</div>
+      </div>
+      <div class="v-row">
+        <div class="v-num">03</div>
+        <div class="v-content"><h5>Identity is verified before submission</h5><p>Two-factor confirmation runs before the application is finalized. Bots and automated submissions are blocked at the source — not filtered after the fact</p></div>
+        <div class="v-check">✓</div>
+      </div>
+      <div class="v-row">
+        <div class="v-num">04</div>
+        <div class="v-content"><h5>Verified application delivered to your ATS</h5><p>A complete, confirmed application lands in your existing workflow. No changes required downstream. Your team starts with better signal</p></div>
+        <div class="v-check">✓</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PHASES -->
+<div class="section-wrap">
+  <div class="section-kicker">Deployment Roadmap</div>
+  <div class="section-headline">Two phases.<br>Start now. <span class="gold">Get ahead.</span></div>
+  <p class="section-sub">Phase 1 is live. Phase 2 — full in-session verified apply — is on the active product roadmap. Organizations in Phase 1 are positioned for continuity into Phase 2 when it opens.</p>
+  <div class="phases-grid" style="grid-template-columns: 1fr 1fr;">
+    <div class="phase-card active reveal" style="padding: 48px 44px;">
+      <div class="now-pill">Live · Phase 1</div>
+      <div class="phase-num"><div class="phase-dot"></div> Phase 1 · Active Now</div>
+      <h3>Native Job Discovery Inside ChatGPT</h3>
+      <p style="margin-bottom:20px;">When candidates search for roles inside ChatGPT, your positions appear natively. SonicJobs surfaces contextually matched openings, provides role context, and routes higher-intent candidates directly to your apply infrastructure — no job board intermediary, no discovery gap.</p>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gold);flex-shrink:0;">✓</div>
+          <span style="font-size:14px;color:rgba(255,255,255,0.55);">Your roles visible inside active ChatGPT job search sessions</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gold);flex-shrink:0;">✓</div>
+          <span style="font-size:14px;color:rgba(255,255,255,0.55);">Context-matched candidates routed before the apply decision</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gold);flex-shrink:0;">✓</div>
+          <span style="font-size:14px;color:rgba(255,255,255,0.55);">Feed-based integration — no engineering work required</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(201,169,110,0.15);border:1px solid rgba(201,169,110,0.3);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gold);flex-shrink:0;">✓</div>
+          <span style="font-size:14px;color:rgba(255,255,255,0.55);">Higher-intent applicants routed directly to your existing ATS</span>
+        </div>
+      </div>
+      <div style="margin-top:20px;padding:14px 18px;background:rgba(201,169,110,0.12);border:1px solid rgba(201,169,110,0.3);border-radius:10px;">
+        <div style="font-size:12px;font-weight:800;color:var(--gold);margin-bottom:4px;">Early Access Pricing</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.6);line-height:1.5;">Organizations onboarding now access early access pricing and are first in line for Phase 2 as the full verified apply experience launches.</div>
+      </div>
+    </div>
+
+    <div class="phase-card reveal" style="padding: 48px 44px; border-style: dashed; opacity: 0.85;">
+      <div style="position:absolute;top:-14px;left:24px;background:var(--navy);color:var(--gold);font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;padding:5px 14px;border-radius:999px;border:1px solid rgba(201,169,110,0.3);">Coming Soon</div>
+      <div class="phase-num"><div class="phase-dot" style="background:var(--gray-lt);"></div> Phase 2 · On Roadmap</div>
+      <h3>Full Verified Apply — Without Leaving ChatGPT</h3>
+      <p style="margin-bottom:20px;">The complete apply experience moves into ChatGPT. Candidates discover your role, answer screeners, verify their identity, and submit — without ever leaving the session. Every application verified. Every screener answered. Delivered directly to your ATS.</p>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(27,28,58,0.08);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gray-lt);flex-shrink:0;">◦</div>
+          <span style="font-size:14px;color:var(--gray-lt);">End-to-end apply inside ChatGPT — no redirect at any stage</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(27,28,58,0.08);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gray-lt);flex-shrink:0;">◦</div>
+          <span style="font-size:14px;color:var(--gray-lt);">Embedded two-factor identity verification on every submission</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(27,28,58,0.08);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gray-lt);flex-shrink:0;">◦</div>
+          <span style="font-size:14px;color:var(--gray-lt);">Every ATS screener question answered before submission</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(27,28,58,0.08);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;color:var(--gray-lt);flex-shrink:0;">◦</div>
+          <span style="font-size:14px;color:var(--gray-lt);">Verified, complete applications delivered directly to your ATS</span>
+        </div>
+      </div>
+      <div style="margin-top:24px;padding:14px 18px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:10px;font-size:13px;color:var(--gold);font-weight:600;">Phase 1 participants get priority access and deployment continuity into Phase 2 at no additional re-onboarding cost.</div>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="final-section">
+  <div class="section-kicker" style="display:flex;justify-content:center;margin-bottom:18px;">Early Access Open · Phase 1 Live · Currently Onboarding</div>
+  <h2>Stop filtering noise.<br>Start receiving <span>verified pipeline.</span></h2>
+  <p>SonicJobs is live inside ChatGPT. Organizations onboarding now get native AI search presence, higher-intent applicants routed directly to their ATS, and early access pricing — before Phase 2 launches.</p>
+  <div style="background:var(--cream-dk);border:1.5px solid var(--cream-dkr);border-radius:16px;padding:24px 32px;max-width:540px;margin:0 auto 36px;display:flex;align-items:flex-start;gap:16px;">
+    <div style="font-size:22px;flex-shrink:0;">◈</div>
+    <div>
+      <div style="font-size:14px;font-weight:800;color:var(--navy);margin-bottom:6px;">Early Access — Phase 1 Now Open</div>
+      <div style="font-size:14px;color:var(--gray);line-height:1.6;">Onboarding is managed to ensure integration quality. Organizations in the current cycle receive early access pricing and are positioned for seamless continuity into Phase 2.</div>
+    </div>
+  </div>
+  <div class="final-cta-row">
+    <button class="btn btn-dark btn-lg" data-cta="request">Request Early Access</button>
+  </div>
+  <div class="final-note" style="margin-top:16px;">Early access pricing available · Follow-up within 24 hours.</div>
+  <div class="ps-box">
+    <strong>A note on deployment structure:</strong> Phase 1 puts your organization inside ChatGPT's job discovery layer, routing higher-intent candidates to your existing apply infrastructure. Phase 2 — full in-session verified apply within ChatGPT — is on the active product roadmap. <strong>Organizations joining Phase 1 receive early access pricing and are first in line for Phase 2 with no re-onboarding required.</strong> Full deployment details, configuration requirements, and commercial terms are provided during the onboarding conversation.
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <svg width="112" height="27" viewBox="0 0 134 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.5045 30.3584C8.34107 29.3906 6.40069 27.9866 4.8048 26.2344C3.10363 24.4632 1.82652 22.329 1.06964 19.9927C0.456097 18.2075 0.327272 16.2915 0.696322 14.4403C1.00517 12.9125 1.80906 11.5292 2.98353 10.5044C4.158 9.47964 5.63754 8.87063 7.19309 8.77166C9.30203 8.59903 11.4195 8.98007 13.3359 9.87708C14.755 10.507 16.0792 11.332 17.2699 12.3284C17.2945 12.3504 17.3167 12.3752 17.3358 12.4021L16.4292 13.4329C15.956 13.1138 15.508 12.7909 15.0396 12.4991C13.5929 11.5527 11.9312 10.9858 10.2078 10.8506C9.30695 10.7353 8.39162 10.8332 7.53552 11.1364C6.67942 11.4395 5.90649 11.9395 5.27897 12.596C4.40994 13.5623 3.90726 14.8027 3.85841 16.1014C3.77203 17.6674 4.08851 19.2295 4.77765 20.6385C5.98026 23.2442 7.98045 25.3999 10.489 26.7939C11.7391 27.5196 13.1256 27.9791 14.5616 28.1437C16.0365 28.3624 17.5413 28.0533 18.8107 27.271C19.5179 26.8099 20.1048 26.1865 20.5225 25.4529C20.9403 24.7192 21.1769 23.8964 21.2125 23.0529C21.3242 21.4619 21.0208 19.8691 20.3321 18.4305C19.8763 17.4221 19.2919 16.4769 18.5935 15.6185L19.5467 14.5451C19.792 14.8524 20.0247 15.1269 20.24 15.4178C21.3562 16.8727 22.214 18.5088 22.7757 20.2545C23.3715 22.0064 23.5051 23.8824 23.1635 25.7011C22.874 27.2271 22.0922 28.6162 20.9379 29.6554C19.7836 30.6947 18.3204 31.3269 16.7724 31.4551C16.3917 31.4951 16.0091 31.5151 15.6263 31.5152C13.8566 31.4943 12.1113 31.1001 10.5045 30.3584Z" fill="white"/>
+    </svg>
+  </div>
+  <p>Early access open · Phase 1 now onboarding · Follow-up within 24 hours.</p>
+  <p>sonicjobs.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
